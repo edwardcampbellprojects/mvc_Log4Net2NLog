@@ -1,0 +1,28 @@
+﻿@using System.Configuration;
+@{
+    ViewBag.Title = "mvc_Log4Net2NLog Test Index";
+#if DEBUG
+    string filePath = ConfigurationManager.AppSettings["LogFile_FullPath"];
+#else
+    string filePath = Server.MapPath(ConfigurationManager.AppSettings["LogFile_RelPath"]);
+#endif
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p>
+    Verify the log file, C:\Temp\Logs\Log.txt for debug, error, info and warning messages
+</p>
+<p style="margin:12px;">
+    @Html.ActionLink("Generate new Test NLog entries and view them", "Log_Test_Entries", "Log4Net_Test")
+</p>
+
+<p style="margin-top:12px;">
+    Or just examine the current NLog log file at
+</p>
+
+<p style="margin:12px;">
+    @Html.ActionLink(@filePath, "ShowFile", "Log4Net_Test")
+</p>
+
+

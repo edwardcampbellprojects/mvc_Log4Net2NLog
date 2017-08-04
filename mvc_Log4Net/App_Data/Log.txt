@@ -1,0 +1,22 @@
+2017-08-04 16:25:59.3591|ERROR|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|Error Message
+2017-08-04 16:25:59.4441|ERROR|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|Error Format errorArg1, errorArg2
+2017-08-04 16:25:59.4491|INFO|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|INFO message
+2017-08-04 16:25:59.4491|INFO|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|Info: infoArg1
+2017-08-04 16:25:59.4491|WARN|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|Warning message
+2017-08-04 16:25:59.4491|WARN|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|Warning on warnArg1, warnArg2, warnArg3
+2017-08-04 16:25:59.5261|ERROR|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|System.Exception: ERROR in Log4Net_TestController.Log_Test_Entries (TEST)
+   at mvc_Log4Net2NLog.Controllers.Log4Net_TestController.Log_Test_Entries() in D:\_projectsTC\_dev\mvc_Log4Net2NLog\mvc_Log4Net2NLog-master\mvc_Log4Net\Controllers\Log4Net_TestController.cs:line 42
+2017-08-04 16:25:59.5261|ERROR|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|Error Format Exception errorArg1, errorArg2
+2017-08-04 16:25:59.5871|FATAL|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|Fatal Error message in Exception
+2017-08-04 16:25:59.5871|FATAL|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|FATAL Format errorArg1, errorArg2
+2017-08-04 16:40:35.6419|ERROR|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|Error Message
+2017-08-04 16:40:35.7549|ERROR|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|Error Format errorArg1, errorArg2
+2017-08-04 16:40:35.7799|INFO|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|INFO message
+2017-08-04 16:40:35.7999|INFO|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|Info: infoArg1
+2017-08-04 16:40:35.7999|WARN|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|Warning message
+2017-08-04 16:40:35.8059|WARN|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|Warning on warnArg1, warnArg2, warnArg3
+2017-08-04 16:40:35.8869|ERROR|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|System.Exception: ERROR in Log4Net_TestController.Log_Test_Entries (TEST)
+   at mvc_Log4Net2NLog.Controllers.Log4Net_TestController.Log_Test_Entries() in D:\_projectsTC\_dev\mvc_Log4Net2NLog\mvc_Log4Net2NLog-master\mvc_Log4Net\Controllers\Log4Net_TestController.cs:line 42
+2017-08-04 16:40:35.9049|ERROR|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|Error Format Exception errorArg1, errorArg2
+2017-08-04 16:40:35.9579|FATAL|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|Fatal Error message in Exception
+2017-08-04 16:40:35.9799|FATAL|mvc_Log4Net2NLog.Controllers.Log4Net_TestController|FATAL Format errorArg1, errorArg2

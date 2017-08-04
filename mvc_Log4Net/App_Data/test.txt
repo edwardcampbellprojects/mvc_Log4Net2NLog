@@ -1,0 +1,2 @@
+D:\_projectsTC\_dev\mvc_Log4Net2NLog\mvc_Log4Net2NLog-master\mvc_Log4Net\App_Data
+D:\_projectsTC\_dev\mvc_Log4Net2NLog\mvc_Log4Net2NLog-master\mvc_Log4Net\App_Data\Log.txt

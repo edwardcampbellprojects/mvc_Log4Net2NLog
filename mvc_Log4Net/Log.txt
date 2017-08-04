@@ -1,0 +1,19 @@
+2017-06-05 15:36:58.6301|ERROR|mvc_Log4Net.Controllers.Log4Net_TestController|Error Message
+2017-06-05 15:36:58.6681|ERROR|mvc_Log4Net.Controllers.Log4Net_TestController|Error Format errorArg1, errorArg2
+2017-06-05 15:36:58.6681|INFO|mvc_Log4Net.Controllers.Log4Net_TestController|INFO message
+2017-06-05 15:36:58.6751|INFO|mvc_Log4Net.Controllers.Log4Net_TestController|Info: infoArg1
+2017-06-05 15:36:58.6751|WARN|mvc_Log4Net.Controllers.Log4Net_TestController|Warning message
+2017-06-05 15:36:58.6751|WARN|mvc_Log4Net.Controllers.Log4Net_TestController|Warning on warnArg1, warnArg2, warnArg3
+2017-06-05 15:36:58.7511|ERROR|mvc_Log4Net.Controllers.Log4Net_TestController|System.Exception: ERROR in Log4Net_TestController.Log_Test_Entries (TEST)
+   at mvc_Log4Net.Controllers.Log4Net_TestController.Log_Test_Entries() in C:\Users\tc\Google Drive\openProjects\_mvc5\mvc_Log4Net-master\mvc_Log4Net\Controllers\Log4Net_TestController.cs:line 41
+2017-06-05 15:39:39.1353|ERROR|mvc_Log4Net.Controllers.Log4Net_TestController|Error Message
+2017-06-05 15:39:39.1713|ERROR|mvc_Log4Net.Controllers.Log4Net_TestController|Error Format errorArg1, errorArg2
+2017-06-05 15:39:39.1713|INFO|mvc_Log4Net.Controllers.Log4Net_TestController|INFO message
+2017-06-05 15:39:39.1833|INFO|mvc_Log4Net.Controllers.Log4Net_TestController|Info: infoArg1
+2017-06-05 15:39:39.1833|WARN|mvc_Log4Net.Controllers.Log4Net_TestController|Warning message
+2017-06-05 15:39:39.1833|WARN|mvc_Log4Net.Controllers.Log4Net_TestController|Warning on warnArg1, warnArg2, warnArg3
+2017-06-05 15:39:39.2303|ERROR|mvc_Log4Net.Controllers.Log4Net_TestController|System.Exception: ERROR in Log4Net_TestController.Log_Test_Entries (TEST)
+   at mvc_Log4Net.Controllers.Log4Net_TestController.Log_Test_Entries() in C:\Users\tc\Google Drive\openProjects\_mvc5\mvc_Log4Net-master\mvc_Log4Net\Controllers\Log4Net_TestController.cs:line 41
+2017-06-05 15:39:39.2303|ERROR|mvc_Log4Net.Controllers.Log4Net_TestController|Error Format Exception errorArg1, errorArg2
+2017-06-05 15:39:39.2643|FATAL|mvc_Log4Net.Controllers.Log4Net_TestController|Fatal Error message in Exception
+2017-06-05 15:39:39.2643|FATAL|mvc_Log4Net.Controllers.Log4Net_TestController|FATAL Format errorArg1, errorArg2
